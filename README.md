@@ -6,3 +6,4 @@ Convert a cryoDRGN particle subset into a RELION star file with the original par
 
 ## topaz_loss_01.py
 Visualise the loss over every iteration during Topaz training in RELION4
+![Loss over Topaz training iterations](/images/topaz_loss.png)
