@@ -56,7 +56,7 @@ def drgn_to_star(fn1, fn2, fn3, first_line=59):
                 f.write(d + '\n')
     f.close()
 
-if __name__ == 'main':
+if __name__ == '__main__':
     drgn_to_star('./02_vae256_stateA/ind_keep.20538_particles.pkl',
                  './job309/particles.star',
                  './particles_subset.star',
