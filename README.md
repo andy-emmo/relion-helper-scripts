@@ -6,6 +6,9 @@ for reading a *_data.star file and plotting the particle distribution per iterat
 can be used for either Class2D or Class3D in Relion
 ![Track particle distribution among classes per iteration](/images/plot_class_distribution_per_iteration.jpg)
 
+## classXD_particle_distribution_histogram_02.py
+for reading a *_data.star file and getting a histogram of particle distributions
+![Histogram(s) of particle distribution among classes](/images/topaz_loss.png)
 
 ## make_starfile_01.py
 Convert a cryoDRGN particle subset into a RELION star file maintaining the original Relion particle paths
