@@ -4,10 +4,10 @@ A collection of scripts to help with RELION cryo-EM data processing
 ## class2D_images_01.py
 show the 2d class averages for each iteration
 use imagemagick to downsample/make a gif:
-...
+```
 mogrify -resize 50% *.png
 convert -delay 20 -loop 0 *.png 2d_classes.gif
-...
+```
 ![Class averages per iteration as images](/images/2d_classes.gif)
 
 ## classXD_particle_distribution_by_iter_03.py
