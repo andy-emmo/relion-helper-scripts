@@ -8,7 +8,7 @@ can be used for either Class2D or Class3D in Relion
 
 ## classXD_particle_distribution_histogram_02.py
 for reading a *_data.star file and getting a histogram of particle distributions
-![Histogram(s) of particle distribution among classes](/images/topaz_loss.png)
+![Histogram(s) of particle distribution among classes](/images/class_counts_job323_run_ct25_it043_data.star.png)
 
 ## make_starfile_01.py
 Convert a cryoDRGN particle subset into a RELION star file maintaining the original Relion particle paths
